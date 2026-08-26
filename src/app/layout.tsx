@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Barlow_Condensed, Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import Header from "./components/layout/Header";
+import Header from "../components/layout/Header";
 
 const barlowCondensed = Barlow_Condensed({
   variable: "--font-barlow-condensed",
