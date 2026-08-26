@@ -1,6 +1,7 @@
+import Container from "../ui/Container";
 import { services } from "@/data/services";
 import type { Service } from "@/types/services";
-import Container from "../ui/Container";
+import ServiceItem from "../services/ServiceItem";
 
 export default function Services() {
   return (
@@ -20,6 +21,12 @@ export default function Services() {
             Nuo kasdienės automobilio priežiūros iki sudėtingesnio remonto –
             pasirūpiname jūsų VAG automobiliu.
           </p>
+        </div>
+
+        <div className="border-t border-black/15">
+          {services.map((service) => (
+            <ServiceItem key={service.number} service={service} />
+          ))}
         </div>
       </Container>
     </section>
