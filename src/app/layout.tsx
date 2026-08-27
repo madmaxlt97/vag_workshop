@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Barlow_Condensed, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "../components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const barlowCondensed = Barlow_Condensed({
   variable: "--font-barlow-condensed",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${barlowCondensed.variable} ${spaceGrotesk.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
