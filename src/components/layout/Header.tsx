@@ -1,28 +1,37 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const navigation = [
   { label: "Paslaugos", href: "#paslaugos" },
   { label: "Apie mus", href: "#apie-mus" },
-  { label: "Kontaktai", href: "#kontaktai" },
+  { label: "Kontaktai", href: "/kontaktai" },
 ];
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
     <header
-      className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${isScrolled ? "border-b border-[var(--border)] bg-[var(--background)]/90 backdrop-blur-md" : "bg-transparent"}`}
+      className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${isScrolled || !isHomePage ? "border-b border-[var(--border)] bg-[var(--background)]/90 backdrop-blur-md" : "bg-transparent"}`}
     >
       <div className="mx-auto flex h-20 w-[90%] max-w-7xl items-center justify-between">
         <Link
@@ -61,7 +70,6 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {isMenuOpen && (
         <div className="border-t border-[var(--border)] bg-[var(--background)] lg:hidden">
           <nav className="mx-auto flex w-[90%] max-w-7xl flex-col py-6">

@@ -30,7 +30,7 @@ export default function Hero() {
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
-              href="#kontaktai"
+              href="/kontaktai"
               className="bg-[var(--primary)] px-7 py-4 font-[var(--font-heading) text-lg font-bold uppercase transition-colors hover:bg-[var(--primary-hover)]"
             >
               Registruotis servisui
