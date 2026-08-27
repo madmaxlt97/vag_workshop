@@ -14,6 +14,8 @@ export default function Workshop() {
               src="/workshop-placeholder.avif"
               alt="Audi dirbuvėse"
               fill
+              sizes="(max-width: 1024px) 90vw, 55vw"
+              quality={60}
               className="object-cover"
             />
           </div>
