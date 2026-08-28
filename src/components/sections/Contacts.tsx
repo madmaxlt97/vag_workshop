@@ -10,7 +10,7 @@ export default function Contacts() {
     >
       <Container>
         <div className="max-w-5xl">
-          <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-white/70">
+          <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-white">
             05 / Kontaktai
           </p>
 
@@ -20,7 +20,7 @@ export default function Contacts() {
             remonto?
           </h2>
 
-          <p className="mt-8 max-w-2xl text-base leading-relaxed text-white/80 md:text-xl">
+          <p className="mt-8 max-w-2xl text-base leading-relaxed text-white md:text-xl">
             Susisiekite su mumis ir aptarkime darbus.
           </p>
 

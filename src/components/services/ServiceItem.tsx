@@ -8,7 +8,7 @@ export default function ServiceItem({ service }: ServiceItemProps) {
   return (
     <article className="group border-b border-black/15">
       <div className="flex flex-col gap-6 py-7 transition-all duration-300 md:grid md:grid-cols-[80px_1fr_auto] md:items-center md:py-9">
-        <span className="font-[var(--font-heading)] text-sm font-semibold tracking-widest text-black/40">
+        <span className="font-[var(--font-heading)] text-sm font-semibold tracking-widest text-[var(--light-muted)]">
           {service.number}
         </span>
         <div>
@@ -16,7 +16,7 @@ export default function ServiceItem({ service }: ServiceItemProps) {
             {service.title}
           </h3>
 
-          <p className="mt-2 text-sm text-black/55 md:text-base">
+          <p className="mt-2 text-sm text-black/65 md:text-base">
             {service.description}
           </p>
         </div>

@@ -11,7 +11,7 @@ export default function Reviews() {
       <Container>
         <div className="mb-16 flex flex-col justify-between gap-8 md:flex-row md:items-end">
           <div>
-            <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-[var(--primary)]">
+            <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-[var(--light-primary)]">
               04 / Atsiliepimai
             </p>
             <h2 className="font-[var(--font-heading)] text-4xl font-bold uppercase leading-[0.85] tracking-tight min-[400px]:text-5xl md:text-8xl">

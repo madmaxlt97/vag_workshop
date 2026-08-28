@@ -7,7 +7,7 @@ type ContactItemProps = {
 export default function ContactItem({ label, value, href }: ContactItemProps) {
   return (
     <div>
-      <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.15em] text-[var(--muted)]">
+      <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.15em] text-white">
         {label}
       </p>
       {href ? (

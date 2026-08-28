@@ -7,7 +7,7 @@ export default function WhyUs() {
     <section id="apie-mus" className="bg-[var(--background)] py-24 md:py-32">
       <Container>
         <div className="max-w-4xl">
-          <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-[var(--primary)]">
+          <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-[var(--primary-light)]">
             02 / Kodėl mes?
           </p>
           <h2 className="font-[var(--font-heading)] text-4xl font-bold uppercase leading-[0.85] tracking-tight min-[400px]:text-5xl md:text-8xl">
