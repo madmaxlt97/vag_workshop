@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import ContactForm from "@/components/contacts/ContactForm";
 import ContactInfo from "@/components/contacts/ContactInfo";
 import GoogleMaps from "@/components/contacts/GoogleMaps";
+
+export const metadata: Metadata = {
+  title: "Kontaktai",
+  description:
+    "Susisiekite su VAG Workshop Vilniuje. Užregistruokite automobilį remontui arba užduokite klausimą.",
+};
 
 export default function ContactsPage() {
   return (

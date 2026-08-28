@@ -17,8 +17,27 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "VAG Workshop",
-  description: "VAG autoservisas Vilniuje",
+  title: {
+    default: "VAG Workshop — Autoservisas Vilniuje",
+    template: "%s | VAG Workshop",
+  },
+  description:
+    "VAG autoservisas Vilniuje. Volkswagen, Audi, Porsche, Škoda ir SEAT automobilių diagnostika, techninė priežiūra ir remontas.",
+
+  openGraph: {
+    title: "VAG Workshop — Autoservisas Vilniuje",
+    description:
+      "Specializuotas VAG autoservisas Vilniuje. Diagnostika, techninė priežiūra ir remontas.",
+    type: "website",
+    locale: "lt_LT",
+    siteName: "VAG Workshop",
+  },
+
+  authors: [{ name: "VAG Workshop" }],
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
