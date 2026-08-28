@@ -33,7 +33,7 @@ export default function ContactForm() {
           name="phone"
           type="tel"
           required
-          autoComplete="phone"
+          autoComplete="tel"
           className="w-full border-b border-black/20 bg-transparent px-0 py-3 outline-none transition-colors placeholder:text-black/30 focus:border-[var(--primary)]"
           placeholder="+370..."
         />

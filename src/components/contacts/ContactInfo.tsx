@@ -4,7 +4,7 @@ export default function ContactInfo() {
   return (
     <div className="space-y-8">
       <div>
-        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)]">
+        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--light-muted)]">
           Telefonas
         </p>
 
@@ -16,7 +16,7 @@ export default function ContactInfo() {
         </a>
       </div>
       <div>
-        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)]">
+        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--light-muted)]">
           El. paštas
         </p>
 
@@ -29,7 +29,7 @@ export default function ContactInfo() {
       </div>
 
       <div>
-        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)]">
+        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--light-muted)]">
           Facebook
         </p>
 
@@ -44,7 +44,7 @@ export default function ContactInfo() {
       </div>
 
       <div>
-        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)]">
+        <p className="mb-2 font-[var(--font-heading)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--light-muted)]">
           Adresas
         </p>
 
