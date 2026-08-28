@@ -26,12 +26,14 @@ export default function Workshop() {
               03 / Mūsų dirbtuvės
             </p>
 
-            <h2 className="font-[var(--font-heading)] text-6xl font-bold uppercase leading-[0.85] tracking-tight md:text-8xl">
+            <h2 className="font-[var(--font-heading)] text-4xl font-bold uppercase leading-[0.85] tracking-tight min-[400px]:text-5xl md:text-8xl">
               Čia
               <br />
               prasideda
               <br />
-              <span className="text-[var(--primary)]">geras remontas.</span>
+              <span className="block max-w-full text-[var(--primary)]">
+                geras remontas.
+              </span>
             </h2>
 
             <p className="mt-8 max-w-lg text-base leading-relaxed text-black/60 md:text-lg">
@@ -41,7 +43,7 @@ export default function Workshop() {
             </p>
 
             <a
-              href="#kontaktai"
+              href="/kontaktai"
               className="mt-10 inline-flex border border-black/20 px-7 py-4 font-[var(--font-heading)] text-lg font-bold uppercase transition-colors hover:border-[var(--primary)] hover:text-[var(--primary)]"
             >
               Susisiekti

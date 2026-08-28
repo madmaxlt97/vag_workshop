@@ -13,7 +13,7 @@ export default function ContactsPage() {
               01 / Kontaktai
             </p>
 
-            <h1 className="font-[var(--font-heading)] text-6xl font-bold uppercase leading-[0.85] tracking-tight md:text-8xl">
+            <h1 className="font-[var(--font-heading)] font-bold uppercase leading-[0.85] tracking-tight text-4xl min-[400px]:text-6xl sm:text-7xl md:text-8xl lg:text-[9rem]">
               Susisiekime.
             </h1>
           </div>

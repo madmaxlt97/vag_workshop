@@ -14,7 +14,7 @@ export default function Reviews() {
             <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-[var(--primary)]">
               04 / Atsiliepimai
             </p>
-            <h2 className="font-[var(--font-heading)] text-6xl font-bold uppercase leading-[0.85] tracking-tight md:text-8xl">
+            <h2 className="font-[var(--font-heading)] text-4xl font-bold uppercase leading-[0.85] tracking-tight min-[400px]:text-5xl md:text-8xl">
               Ką sako
               <br />
               <span className="text-[var(--primary)]">klientai?</span>

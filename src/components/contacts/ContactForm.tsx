@@ -14,6 +14,7 @@ export default function ContactForm() {
           name="name"
           type="text"
           required
+          autoComplete="name"
           className="w-full border-b border-black/20 bg-transparent px-0 py-3 outline-none transition-colors placeholder:text-black/30 focus:border-[var(--primary)]"
           placeholder="Jūsų vardas"
         />
@@ -32,6 +33,7 @@ export default function ContactForm() {
           name="phone"
           type="tel"
           required
+          autoComplete="phone"
           className="w-full border-b border-black/20 bg-transparent px-0 py-3 outline-none transition-colors placeholder:text-black/30 focus:border-[var(--primary)]"
           placeholder="+370..."
         />
@@ -49,11 +51,38 @@ export default function ContactForm() {
           id="email"
           name="email"
           type="email"
+          autoComplete="email"
           className="w-full border-b border-black/20 bg-transparent px-0 py-3 outline-none transition-colors placeholder:text-black/30 focus:border-[var(--primary)]"
           placeholder="jusu@email.lt"
         />
       </div>
+      <div>
+        <label
+          htmlFor="subject"
+          className="mb-2 block font-[var(--font-heading)] text-sm font-bold uppercase tracking-wide"
+        >
+          Kuo galime padėti?
+        </label>
 
+        <select
+          id="subject"
+          name="subject"
+          required
+          defaultValue=""
+          className="w-full cursor-pointer appearance-none rounded-none border-0 border-b border-black/20 bg-transparent px-0 py-3 font-[var(--font-body)] text-base text-[var(--light-foreground)] outline-none transition-colors focus:border-[var(--primary)]"
+        >
+          <option value="" disabled>
+            Pasirinkite
+          </option>
+
+          <option value="variklis">Variklis</option>
+          <option value="pakaba">Pakaba</option>
+          <option value="elektronika">Elektronika</option>
+          <option value="stabdziai">Stabdžiai</option>
+          <option value="diagnostika">Diagnostika</option>
+          <option value="kiti">Kiti klausimai</option>
+        </select>
+      </div>
       <div>
         <label
           htmlFor="message"
@@ -74,7 +103,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="bg-[var(--primary)] px-8 py-4 font-[var(--font-heading)] text-lg font-bold uppercase text-white transition-transform duration-300 hover:-translate-y-1"
+        className="bg-[var(--primary)] px-8 py-4 font-[var(--font-heading)] text-lg font-bold uppercase text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[var(--primary-hover)]"
       >
         Siųsti užklausą →
       </button>

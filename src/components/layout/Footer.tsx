@@ -4,7 +4,7 @@ import { contact } from "@/data/contacts";
 
 export default function Footer() {
   return (
-    <footer className="bag-[var(--background)] py-10 text-[var(--foreground)]">
+    <footer className="bg-[var(--background)] py-10 text-[var(--foreground)]">
       <Container>
         <div className="grid border-b border-white/10 pb-10 md:grid-cols-2">
           <div>
@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/paslaugos"
+                  href="/#paslaugos"
                   className="transition-colors hover:text-[var(--primary)]"
                 >
                   Paslaugos
@@ -42,7 +42,7 @@ export default function Footer() {
 
               <li>
                 <Link
-                  href="/apie-mus"
+                  href="/#apie-mus"
                   className="transition-colors hover:text-[var(--primary)]"
                 >
                   Apie mus

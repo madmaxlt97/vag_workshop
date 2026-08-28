@@ -20,11 +20,11 @@ export default function Hero() {
             VAG specialistai
           </p>
 
-          <h1 className="font-[var(--font-heading]) text-7xl font-bold uppercase leading-[0.85] tracking-tight md:text-8xl lg:text-[9rem]">
+          <h1 className="font-[var(--font-heading)] font-bold uppercase leading-[0.85] tracking-tight text-4xl min-[400px]:text-6xl sm:text-7xl md:text-8xl lg:text-[9rem]">
             Autoservisas <br />
             <span className="text-[var(--primary)]">Vilniuje</span>
           </h1>
-          <p className="mt-8 max-w-xl text-base leading-relaxed text-[var(--muted)]md:text-lg">
+          <p className="mt-8 max-w-xl text-base leading-relaxed text-[var(--muted)] md:text-lg">
             Volkswagen, Audi, Porsche, Škoda ir SEAT automobilių diagnostika,
             techninė priežiūra ir remontas.
           </p>

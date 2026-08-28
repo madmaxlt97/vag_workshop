@@ -14,7 +14,7 @@ export default function Contacts() {
             05 / Kontaktai
           </p>
 
-          <h2 className="font-[var(--font-heading)] text-6xl font-bold uppercase leading-[0.85] tracking-tight md:text-8xl lg:text-9xl">
+          <h2 className="font-[var(--font-heading)] text-4xl font-bold uppercase leading-[0.85] tracking-tight min-[400px]:text-5xl md:text-8xl">
             Reikia
             <br />
             remonto?

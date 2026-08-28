@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const navigation = [
-  { label: "Paslaugos", href: "#paslaugos" },
-  { label: "Apie mus", href: "#apie-mus" },
+  { label: "Paslaugos", href: "/#paslaugos" },
+  { label: "Apie mus", href: "/#apie-mus" },
   { label: "Kontaktai", href: "/kontaktai" },
 ];
 
@@ -53,7 +53,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="#kontaktai"
+            href="/kontaktai"
             className="bg-[var(--primary)] px-6 py-3 font-[var(--font-heading)] text-lg font-bold uppercase transition-colors hover:bg-[var(--primary-hover)]"
           >
             Registruotis
@@ -85,7 +85,7 @@ export default function Header() {
             ))}
 
             <Link
-              href="#kontaktai"
+              href="/kontaktai"
               onClick={() => setIsMenuOpen(false)}
               className="mt-6 bg-[var(--primary)] px-6 py-4 text-center font-[var(--font-heading)] text-xl font-bold uppercase"
             >

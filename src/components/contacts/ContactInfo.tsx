@@ -10,7 +10,7 @@ export default function ContactInfo() {
 
         <a
           href={`tel:${contact.phone}`}
-          className="font-[var(--font-heading)] text-2xl font-bold uppercase transition-colors hover:text-[var(--primary)]"
+          className="font-[var(--font-heading)] text-xl font-bold uppercase transition-colors hover:text-[var(--primary)] min-[400px]:text-2xl"
         >
           {contact.phone}
         </a>
@@ -22,7 +22,7 @@ export default function ContactInfo() {
 
         <a
           href={`mailto:${contact.email}`}
-          className="font-[var(--font-heading)] text-2xl font-bold uppercase transition-colors hover:text-[var(--primary)]"
+          className="font-[var(--font-heading)] text-xl font-bold uppercase transition-colors hover:text-[var(--primary)] min-[400px]:text-2xl break-all"
         >
           {contact.email}
         </a>
@@ -37,7 +37,7 @@ export default function ContactInfo() {
           href={contact.facebook}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-[var(--font-heading)] text-2xl font-bold uppercase transition-colors hover:text-[var(--primary)]"
+          className="font-[var(--font-heading)] text-xl font-bold uppercase transition-colors hover:text-[var(--primary)] min-[400px]:text-2xl"
         >
           VAG Workshop →
         </a>
@@ -48,7 +48,7 @@ export default function ContactInfo() {
           Adresas
         </p>
 
-        <p className="font-[var(--font-heading)] text-2xl font-bold uppercase">
+        <p className="font-[var(--font-heading)] text-xl font-bold uppercase transition-colors hover:text-[var(--primary)] min-[400px]:text-2xl">
           {contact.address}
         </p>
       </div>
