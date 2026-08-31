@@ -17,8 +17,8 @@ export default function WhyUs() {
           </h2>
 
           <p className="mt-8 max-w-2xl text-base leading-relaxed text-[var(--muted)] md:text-lg">
-            Specializuojamės VAG automobiliuose ir žinome, kad geras remontas
-            prasideda nuo teisingos diagnostikos.
+            Daugiau nei 10 metų dirbame su jūsų automobiliais ir žinome, kad
+            geras remontas prasideda nuo teisingos diagnostikos.
           </p>
         </div>
         <div className="mt-20 grid border-t border-[var(--border)] md:grid-cols-2">

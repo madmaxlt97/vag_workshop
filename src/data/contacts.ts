@@ -1,6 +1,6 @@
 export const contact = {
-  phone: "+370 161 6050",
-  email: "autotrauka@gmail.com",
-  facebook: "https://www.facebook.com/vag.workshop/",
-  address: "A. Kojelavičiaus g. 29, Vilnius, 11100 Vilniaus m. sav.",
+  phone: "+370 6 0000 000",
+  email: "manoautoservisas@gmail.com",
+  facebook: "https://www.facebook.com/",
+  address: "Čia galėtų būti jūsų adresas",
 };

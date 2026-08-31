@@ -12,7 +12,7 @@ export default function Workshop() {
           <div className="relative aspect-[4/5] overflow-hidden md:aspect-[4/3">
             <Image
               src="/workshop-placeholder.avif"
-              alt="Audi dirbuvėse"
+              alt="Photo by mintosko on Unsplash"
               fill
               sizes="(max-width: 1024px) 90vw, 55vw"
               quality={60}
@@ -22,7 +22,6 @@ export default function Workshop() {
 
           <div>
             <p className="mb-5 font-[var(--font-heading)] text-sm font-bold uppercase tracking-[0.2em] text-[var(--primary)]">
-              {" "}
               03 / Mūsų dirbtuvės
             </p>
 
@@ -37,9 +36,9 @@ export default function Workshop() {
             </h2>
 
             <p className="mt-8 max-w-lg text-base leading-relaxed text-black/60 md:text-lg">
-              Dirbame su VAG automobiliais kiekvieną dieną. Mūsų tikslas – ne
-              tik pašalinti gedimą, bet suprasti jo priežastį ir pasiūlyti
-              tinkamą sprendimą.
+              Dirbame su automobiliais kiekvieną dieną. Mūsų tikslas – ne tik
+              pašalinti gedimą, bet suprasti jo priežastį ir pasiūlyti tinkamą
+              sprendimą.
             </p>
 
             <a

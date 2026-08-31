@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10">
         <Image
           src="/hero.avif"
-          alt="Audi RS3 trasoje"
+          alt="Photo by Eduardo Flores on Unsplash"
           fill
           priority
           className="object-cover"
@@ -17,7 +17,7 @@ export default function Hero() {
       <Container>
         <div className="max-w-4xl">
           <p className="mb-5 font-[var(--font-heading)] text-xl font-semibold uppercase tracking-widest text-[var(--primary)]">
-            VAG specialistai
+            Savo srities specialistai
           </p>
 
           <h1 className="font-[var(--font-heading)] font-bold uppercase leading-[0.85] tracking-tight text-4xl min-[400px]:text-6xl sm:text-7xl md:text-8xl lg:text-[9rem]">

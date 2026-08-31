@@ -39,7 +39,7 @@ export default function Contacts() {
             />
             <ContactItem
               label="Facebook"
-              value="VAG Workshop"
+              value="Mano autoservisas"
               href={contact.facebook}
             />
 

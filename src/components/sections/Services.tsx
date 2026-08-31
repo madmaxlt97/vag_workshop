@@ -18,7 +18,7 @@ export default function Services() {
           </h2>
           <p className="mt-8 max-w-2xl text-base leading-relaxed text-black/60 md:text-lg">
             Nuo kasdienės automobilio priežiūros iki sudėtingesnio remonto –
-            pasirūpiname jūsų VAG automobiliu.
+            pasirūpiname jūsų automobiliu.
           </p>
         </div>
 

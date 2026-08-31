@@ -3,7 +3,7 @@ import type { Benefit } from "@/types/benefit";
 export const benefits: Benefit[] = [
   {
     number: "01",
-    title: "VAG specialistai",
+    title: "Patirę specialistai",
     description:
       "Specializuojamės Volkswagen, Audi, Škoda ir SEAT automobiliuose.",
   },

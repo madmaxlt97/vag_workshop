@@ -7,7 +7,7 @@ import GoogleMaps from "@/components/contacts/GoogleMaps";
 export const metadata: Metadata = {
   title: "Kontaktai",
   description:
-    "Susisiekite su VAG Workshop Vilniuje. Užregistruokite automobilį remontui arba užduokite klausimą.",
+    "Susisiekite su Mano autoservisas Vilniuje. Užregistruokite automobilį remontui arba užduokite klausimą.",
 };
 
 export default function ContactsPage() {

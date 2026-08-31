@@ -31,7 +31,7 @@ export default function ReviewCard({ review }: ReviewCardProps) {
           )}
         </div>
 
-        {review.text.length > 150 && (
+        {review.text.length > 90 && (
           <button
             type="button"
             onClick={() => setIsExpanded((prev) => !prev)}

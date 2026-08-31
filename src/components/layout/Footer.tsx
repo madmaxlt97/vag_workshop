@@ -12,10 +12,10 @@ export default function Footer() {
               href="/"
               className="font-[var(--font-heading)] text-3xl font-bold uppercase"
             >
-              VAG <span className="text-[var(--primary)]">Workshop</span>
+              Mano <span className="text-[var(--primary)]">Autoservisas</span>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-[var(--muted)]">
-              VAG autimobilių servisas Vilniuje
+              Premium autimobilių servisas Vilniuje
             </p>
           </div>
           <nav className="md:justify-self-end">
@@ -61,7 +61,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="flex flex-col gap-3 pt-6 text-sm text-[var(--muted)] md:flex-row md:items-center md:justify-between">
-          <p>© {new Date().getFullYear()} VAG Workshop</p>
+          <p>© {new Date().getFullYear()} Mano autoservisas</p>
           <a
             href={contact.facebook}
             target="_blank"

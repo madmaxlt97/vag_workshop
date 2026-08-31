@@ -38,8 +38,8 @@ export default function Header() {
           href="/"
           className="font-[var(--font-heading) text-2xl font-bold uppercase tracking-tight"
         >
-          <span className="text-[var(--foreground)]">VAG</span>
-          <span className="text-[var(--primary)]">Workshop</span>
+          <span className="text-[var(--foreground)]">Mano</span>
+          <span className="text-[var(--primary)]">autoservisas</span>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">

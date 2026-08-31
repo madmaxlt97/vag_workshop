@@ -39,7 +39,7 @@ export default function ContactInfo() {
           rel="noopener noreferrer"
           className="font-[var(--font-heading)] text-xl font-bold uppercase transition-colors hover:text-[var(--primary)] min-[400px]:text-2xl"
         >
-          VAG Workshop →
+          Mano autoservisas →
         </a>
       </div>
 

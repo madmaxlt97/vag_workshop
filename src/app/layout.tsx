@@ -22,18 +22,18 @@ export const metadata: Metadata = {
     template: "%s | VAG Workshop",
   },
   description:
-    "VAG autoservisas Vilniuje. Volkswagen, Audi, Porsche, Škoda ir SEAT automobilių diagnostika, techninė priežiūra ir remontas.",
+    "Premium autoservisas Vilniuje. Volkswagen, Audi, Porsche, Škoda ir SEAT automobilių diagnostika, techninė priežiūra ir remontas.",
 
   openGraph: {
-    title: "VAG Workshop — Autoservisas Vilniuje",
+    title: "Mano servisas — Autoservisas Vilniuje",
     description:
-      "Specializuotas VAG autoservisas Vilniuje. Diagnostika, techninė priežiūra ir remontas.",
+      "Specializuotas autoservisas Vilniuje. Diagnostika, techninė priežiūra ir remontas.",
     type: "website",
     locale: "lt_LT",
-    siteName: "VAG Workshop",
+    siteName: "Mano servisas",
   },
 
-  authors: [{ name: "VAG Workshop" }],
+  authors: [{ name: "Mano servisas" }],
   robots: {
     index: true,
     follow: true,
