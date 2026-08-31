@@ -18,8 +18,8 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "VAG Workshop — Autoservisas Vilniuje",
-    template: "%s | VAG Workshop",
+    default: "Mano servisas — Autoservisas Vilniuje",
+    template: "%s | Mano servisas",
   },
   description:
     "Premium autoservisas Vilniuje. Volkswagen, Audi, Porsche, Škoda ir SEAT automobilių diagnostika, techninė priežiūra ir remontas.",
