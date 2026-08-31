@@ -39,7 +39,7 @@ export default function Header() {
           className="font-[var(--font-heading) text-2xl font-bold uppercase tracking-tight"
         >
           <span className="text-[var(--foreground)]">Mano</span>
-          <span className="text-[var(--primary)]">autoservisas</span>
+          <span className="text-[var(--primary)]">servisas</span>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
